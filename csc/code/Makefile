@@ -1,5 +1,4 @@
 #.PHONY main.o fibo.o
-
 all: main.o fibo.o
 
 main.o: main.c

@@ -20,6 +20,5 @@ int main()
         }else{
                 printf("N");
         }
-        return 0;
-        
+        return 0;    
 }

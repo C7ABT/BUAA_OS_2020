@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-        int n;
-        scanf("%d",&n);
+	int n;
+	scanf("%d",&n);
         int i = 0, j = 0,k,a[10];
         while(n > 0)
         {
@@ -15,10 +15,10 @@ int main()
                 j++;
                 k--;
         }
-        if(j > i - 1){
-                printf("Y");
-        }else{
-                printf("N");
-        }
-        return 0;    
+	if(j > i - 1){
+		printf("Y");
+	}else{
+		printf("N");
+	}
+	return 0;
 }

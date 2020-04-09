@@ -4,4 +4,4 @@
 
 grep -n $2 $1 | awk -F: '{print $1}' > $3
 
-#grep -n $2 $1 | cut -d ":" -f 1 > $3   // Another way to do so.
+#grep -n $2 $1 | cut -d ":" -f 1 > $3
